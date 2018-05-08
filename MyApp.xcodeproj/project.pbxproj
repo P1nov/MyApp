@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F42CBA620A1B39A00006A13 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F42CBA520A1B39A00006A13 /* RootViewController.m */; };
+		5F42CBA920A1B3CD00006A13 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F42CBA820A1B3CD00006A13 /* MineViewController.m */; };
+		5F42CBAC20A1B3ED00006A13 /* MutipartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F42CBAB20A1B3ED00006A13 /* MutipartViewController.m */; };
+		5F42CBAF20A1B40500006A13 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F42CBAE20A1B40500006A13 /* MainViewController.m */; };
+		5F42CBB320A1B8FE00006A13 /* MineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F42CBB220A1B8FE00006A13 /* MineTableViewCell.m */; };
 		5FADC29A20A1B01700663111 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADC29920A1B01700663111 /* main.m */; };
 		5FADC29D20A1B01700663111 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADC29C20A1B01700663111 /* AppDelegate.m */; };
-		5FADC2A020A1B01700663111 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADC29F20A1B01700663111 /* ViewController.m */; };
 		5FADC2A320A1B01700663111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FADC2A120A1B01700663111 /* Main.storyboard */; };
 		5FADC2A520A1B01700663111 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5FADC2A420A1B01700663111 /* Assets.xcassets */; };
 		5FADC2A820A1B01700663111 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FADC2A620A1B01700663111 /* LaunchScreen.storyboard */; };
@@ -43,12 +47,20 @@
 		174D8384583A2942A1018F73 /* Pods-MyAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppUITests/Pods-MyAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		3EBDEE04C9C0D1F7097C42D2 /* Pods-MyAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyAppUITests/Pods-MyAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		479C883B8BFA04366CED7CF1 /* libPods-MyApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F42CBA420A1B39A00006A13 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		5F42CBA520A1B39A00006A13 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		5F42CBA720A1B3CD00006A13 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		5F42CBA820A1B3CD00006A13 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		5F42CBAA20A1B3ED00006A13 /* MutipartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutipartViewController.h; sourceTree = "<group>"; };
+		5F42CBAB20A1B3ED00006A13 /* MutipartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutipartViewController.m; sourceTree = "<group>"; };
+		5F42CBAD20A1B40500006A13 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		5F42CBAE20A1B40500006A13 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		5F42CBB120A1B8FE00006A13 /* MineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewCell.h; sourceTree = "<group>"; };
+		5F42CBB220A1B8FE00006A13 /* MineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewCell.m; sourceTree = "<group>"; };
 		5FADC29520A1B01700663111 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FADC29920A1B01700663111 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5FADC29B20A1B01700663111 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5FADC29C20A1B01700663111 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5FADC29E20A1B01700663111 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5FADC29F20A1B01700663111 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5FADC2A220A1B01700663111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5FADC2A420A1B01700663111 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5FADC2A720A1B01700663111 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -103,6 +115,60 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		5F42CB9C20A1B30D00006A13 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5F42CBA320A1B39A00006A13 /* Root */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5F42CB9D20A1B31300006A13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5F42CBB020A1B8EA00006A13 /* Mine */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5F42CB9E20A1B31800006A13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5F42CB9F20A1B31C00006A13 /* NetHandler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NetHandler;
+			sourceTree = "<group>";
+		};
+		5F42CBA320A1B39A00006A13 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				5F42CBA420A1B39A00006A13 /* RootViewController.h */,
+				5F42CBA520A1B39A00006A13 /* RootViewController.m */,
+				5F42CBA720A1B3CD00006A13 /* MineViewController.h */,
+				5F42CBA820A1B3CD00006A13 /* MineViewController.m */,
+				5F42CBAA20A1B3ED00006A13 /* MutipartViewController.h */,
+				5F42CBAB20A1B3ED00006A13 /* MutipartViewController.m */,
+				5F42CBAD20A1B40500006A13 /* MainViewController.h */,
+				5F42CBAE20A1B40500006A13 /* MainViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		5F42CBB020A1B8EA00006A13 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				5F42CBB120A1B8FE00006A13 /* MineTableViewCell.h */,
+				5F42CBB220A1B8FE00006A13 /* MineTableViewCell.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
 		5FADC28C20A1B01700663111 = {
 			isa = PBXGroup;
 			children = (
@@ -128,10 +194,12 @@
 		5FADC29720A1B01700663111 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
-				5FADC29B20A1B01700663111 /* AppDelegate.h */,
+				5F42CB9E20A1B31800006A13 /* Model */,
+				5F42CB9D20A1B31300006A13 /* View */,
+				5F42CB9C20A1B30D00006A13 /* Controller */,
+				5F42CB9F20A1B31C00006A13 /* NetHandler */,
 				5FADC29C20A1B01700663111 /* AppDelegate.m */,
-				5FADC29E20A1B01700663111 /* ViewController.h */,
-				5FADC29F20A1B01700663111 /* ViewController.m */,
+				5FADC29B20A1B01700663111 /* AppDelegate.h */,
 				5FADC2A120A1B01700663111 /* Main.storyboard */,
 				5FADC2A420A1B01700663111 /* Assets.xcassets */,
 				5FADC2A620A1B01700663111 /* LaunchScreen.storyboard */,
@@ -475,9 +543,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FADC2A020A1B01700663111 /* ViewController.m in Sources */,
+				5F42CBAC20A1B3ED00006A13 /* MutipartViewController.m in Sources */,
+				5F42CBAF20A1B40500006A13 /* MainViewController.m in Sources */,
 				5FADC29D20A1B01700663111 /* AppDelegate.m in Sources */,
 				5FADC29A20A1B01700663111 /* main.m in Sources */,
+				5F42CBB320A1B8FE00006A13 /* MineTableViewCell.m in Sources */,
+				5F42CBA620A1B39A00006A13 /* RootViewController.m in Sources */,
+				5F42CBA920A1B3CD00006A13 /* MineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -723,6 +795,7 @@
 				5FADC2C420A1B01700663111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FADC2C520A1B01700663111 /* Build configuration list for PBXNativeTarget "MyAppTests" */ = {
 			isa = XCConfigurationList;
@@ -731,6 +804,7 @@
 				5FADC2C720A1B01700663111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FADC2C820A1B01700663111 /* Build configuration list for PBXNativeTarget "MyAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -739,6 +813,7 @@
 				5FADC2CA20A1B01700663111 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

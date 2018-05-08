@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MutipartViewController.h
 //  MyApp
 //
 //  Created by  P1no on 2018/5/8.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface MutipartViewController : UIViewController
 
 @end
-
