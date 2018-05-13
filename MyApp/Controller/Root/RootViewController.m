@@ -16,40 +16,38 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view
     self.viewControllers = @[self.mainViewController, self.mutiViewController, self.mineViewController];
 }
 
--(void)loadView{
-    
-}
-
+//-(void)loadView{
+//    
+//}
+//
 -(MineViewController *)mineViewController{
     if(!_mineViewController){
-        MineViewController *mine = [[MineViewController alloc]init];
-        mine.title = @"我的";
-        self.mineViewController = mine;
+        _mineViewController = [[MineViewController alloc]init];
+        _mineViewController.title = @"我的";
     }
     
-    return self.mineViewController;
+    return _mineViewController;
 }
 
 -(MutipartViewController *)mutiViewController{
     if(!_mutiViewController){
-        MutipartViewController *muti = [[MutipartViewController alloc]init];
-        muti.title = @"功能";
-        self.mutiViewController = muti;
+        _mutiViewController = [[MutipartViewController alloc]init];
+        _mutiViewController.title = @"功能";
+
     }
-    return self.mutiViewController;
+    return _mutiViewController;
 }
 
 -(MainViewController *)mainViewController{
     if(!_mainViewController){
-        MainViewController *main = [[MainViewController alloc]init];
-        main.title = @"主页";
-        self.mainViewController = main;
+        _mainViewController = [[MainViewController alloc]init];
+        _mainViewController.title = @"主页";
     }
-    return self.mainViewController;
+    return _mainViewController;
 }
 
 - (void)didReceiveMemoryWarning {

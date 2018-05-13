@@ -12,6 +12,7 @@
 		5F42CBAC20A1B3ED00006A13 /* MutipartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F42CBAB20A1B3ED00006A13 /* MutipartViewController.m */; };
 		5F42CBAF20A1B40500006A13 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F42CBAE20A1B40500006A13 /* MainViewController.m */; };
 		5F42CBB320A1B8FE00006A13 /* MineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F42CBB220A1B8FE00006A13 /* MineTableViewCell.m */; };
+		5F570D0820A7F78A00D73012 /* GNButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F570D0720A7F78A00D73012 /* GNButton.m */; };
 		5FADC29A20A1B01700663111 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADC29920A1B01700663111 /* main.m */; };
 		5FADC29D20A1B01700663111 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADC29C20A1B01700663111 /* AppDelegate.m */; };
 		5FADC2A320A1B01700663111 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FADC2A120A1B01700663111 /* Main.storyboard */; };
@@ -57,6 +58,8 @@
 		5F42CBAE20A1B40500006A13 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		5F42CBB120A1B8FE00006A13 /* MineTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineTableViewCell.h; sourceTree = "<group>"; };
 		5F42CBB220A1B8FE00006A13 /* MineTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineTableViewCell.m; sourceTree = "<group>"; };
+		5F570D0620A7F78A00D73012 /* GNButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GNButton.h; sourceTree = "<group>"; };
+		5F570D0720A7F78A00D73012 /* GNButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNButton.m; sourceTree = "<group>"; };
 		5FADC29520A1B01700663111 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FADC29920A1B01700663111 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5FADC29B20A1B01700663111 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -126,6 +129,7 @@
 		5F42CB9D20A1B31300006A13 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5F570D0520A7F76300D73012 /* Btn */,
 				5F42CBB020A1B8EA00006A13 /* Mine */,
 			);
 			path = View;
@@ -167,6 +171,15 @@
 				5F42CBB220A1B8FE00006A13 /* MineTableViewCell.m */,
 			);
 			path = Mine;
+			sourceTree = "<group>";
+		};
+		5F570D0520A7F76300D73012 /* Btn */ = {
+			isa = PBXGroup;
+			children = (
+				5F570D0620A7F78A00D73012 /* GNButton.h */,
+				5F570D0720A7F78A00D73012 /* GNButton.m */,
+			);
+			path = Btn;
 			sourceTree = "<group>";
 		};
 		5FADC28C20A1B01700663111 = {
@@ -549,6 +562,7 @@
 				5FADC29A20A1B01700663111 /* main.m in Sources */,
 				5F42CBB320A1B8FE00006A13 /* MineTableViewCell.m in Sources */,
 				5F42CBA620A1B39A00006A13 /* RootViewController.m in Sources */,
+				5F570D0820A7F78A00D73012 /* GNButton.m in Sources */,
 				5F42CBA920A1B3CD00006A13 /* MineViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -703,6 +717,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FQGKZW3CLA;
 				INFOPLIST_FILE = MyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = P1no.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -716,6 +731,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FQGKZW3CLA;
 				INFOPLIST_FILE = MyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = P1no.MyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -29,49 +29,43 @@
 
 -(UIImageView *)iconImageView{
     if(!_iconImageView){
-        UIImageView *iconImg = [[UIImageView alloc]init];
-        iconImg.frame = CGRectMake(5, 10, self.frame.size.width/5.5, self.frame.size.height/1.2);
-        self.iconImageView = iconImg;
-        
+        _iconImageView = [[UIImageView alloc]init];
+        _iconImageView.frame = CGRectMake(5, 10, self.frame.size.width/5.5, self.frame.size.height/1.2);
     }
     
-    return self.iconImageView;
+    return _iconImageView;
 }
 
 -(UIImageView *)icon1{
     if(!_icon1){
-        UIImageView *icon = [[UIImageView alloc]init];
-        icon.frame = CGRectMake(10, 10, self.frame.size.width/11, self.frame.size.height/2);
-        self.icon1 = icon;
+        _icon1 = [[UIImageView alloc]init];
+        _icon1.frame = CGRectMake(10, 10, self.frame.size.width/11, self.frame.size.height/2);
     }
-    return self.icon1;
+    return _icon1;
 }
 
 -(UILabel *)nameLabel{
     if(!_nameLabel){
-        UILabel *label = [[UILabel alloc]init];
-        label.frame = CGRectMake(self.iconImageView.frame.origin.x + self.iconImageView.frame.size.width + 5, self.iconImageView.frame.origin.y, self.frame.size.width/3, self.frame.size.height/4);
-        self.nameLabel = label;
+        _nameLabel = [[UILabel alloc]init];
+        _nameLabel.frame = CGRectMake(self.iconImageView.frame.origin.x + self.iconImageView.frame.size.width + 5, self.iconImageView.frame.origin.y, self.frame.size.width/3, self.frame.size.height/4);
     }
-    return self.nameLabel;
+    return _nameLabel;
 }
 
 -(UILabel *)signLabel{
     if(!_signLabel){
-        UILabel *label = [[UILabel alloc]init];
-        label.frame = CGRectMake(self.nameLabel.frame.origin.x, self.nameLabel.frame.origin.y + self.nameLabel.frame.size.height + 5, self.nameLabel.frame.size.width, self.nameLabel.frame.size.height);
-        self.signLabel = label;
+        _signLabel = [[UILabel alloc]init];
+        _signLabel.frame = CGRectMake(self.nameLabel.frame.origin.x, self.nameLabel.frame.origin.y + self.nameLabel.frame.size.height + 5, self.nameLabel.frame.size.width, self.nameLabel.frame.size.height);
     }
-    return self.signLabel;
+    return _signLabel;
 }
 
 -(UILabel *)label{
     if(!_label){
-        UILabel *label = [[UILabel alloc]init];
-        label.frame = CGRectMake(self.icon1.frame.origin.x + self.icon1.frame.size.width + 5, self.icon1.frame.origin.y, self.frame.size.width/2, self.icon1.frame.size.height);
-        self.label = label;
+        _label = [[UILabel alloc]init];
+        _label.frame = CGRectMake(self.icon1.frame.origin.x + self.icon1.frame.size.width + 5, self.icon1.frame.origin.y, self.frame.size.width/2, self.icon1.frame.size.height);
     }
-    return self.label;
+    return _label;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
